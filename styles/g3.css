@@ -139,6 +139,53 @@ quick-list-left img{
 }
 
 /* features style */
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 54px;
+}
+.features-left{
+    max-width: 586px;
+    height: 982px;
+}
+.features-heading{
+    font-size: 3rem;
+    font-weight: bold;
+    border-left: #FF900E;
+}
+.features-left h4{
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+.features-image{
+    max-width: 800px;
+    height: 1059px;
+    /* border: 1px solid red; */
+    /* text-align: right;  */
+}
+.features-des1, .features-des2, .features-des3, .features-des4 {
+    background-color: aliceblue;
+    padding: 24px;
+    margin-top: 20px;
+}
+.features-image img{
+    border-radius: 8px;
+    padding-left: 92px;
+}
+.features-image button{
+    padding: 45px;
+    text-align: center;
+    margin-top: -123px;
+}
+.btn-part1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.btn-part2{
+    font-size: 1.56rem;
+    font-weight: 500;
+}
 
 /* some facts style */
 
