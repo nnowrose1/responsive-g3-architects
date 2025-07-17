@@ -1,0 +1,149 @@
+
+.work-sans-font{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shared styles */
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.btn-primary{
+    background-color: rgba(255, 144, 14, 1);
+    border-radius: 8px;
+    color: white;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+}
+.display-flex{
+    display: flex;
+}
+.dark-1{
+    color: #131313;
+}
+.dark-2{
+    color: #424242;
+}
+.dark-3{
+    color: #727272;
+}
+
+/* header styles */
+.header{
+    max-width: 1920px;
+    /* height: 1322px;   */
+    background-color: rgba(255, 144, 14, 0.1); 
+}
+/* navbar styles */
+.navbar{
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    padding-left: 0;
+    /* border: 1px solid red;  */
+    max-width: 477px; 
+    /* height: 26px;  */
+     /* justify-content: space-between;  */
+      gap: 75px; 
+}
+nav li{
+    list-style: none;
+}
+nav a {
+    text-decoration: none;
+    color: #424242;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+.nav-heading{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+/* banner styles */
+.banner{
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 100px;
+    padding-bottom: 45px;
+    /* border: 1px solid blue; */
+}
+.banner-top{
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     gap: 32px;
+    justify-content: center;
+    align-items: center;
+} 
+.banner-content{
+    /* border: 1px solid red; */
+    max-width: 860px;
+    height: 225px;   
+}
+.banner-button{
+    margin-bottom: 50px;
+}
+.banner-heading{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.banner-image img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* quick list style */
+
+/* features style */
+
+/* some facts style */
+
+
+
+/* sponsors style */
+
+/* footer style */
+.bg-footer{
+    color: rgba(255, 244, 231, 1);
+}
+
+
+/* responsive section */
+@media screen and (max-width: 576px) {
+    .navbar,
+    nav ul
+    {
+        flex-direction: column;
+    }
+    .header, .banner-content{
+        height: auto;
+        padding: 0;
+    }
+    nav ul{
+        gap: 10px;
+    } 
+}
+
+/* medium screen */
+@media screen and (min-width: 576px) and (max-width: 1020px){
+.navbar{
+    flex-direction: column;
+}
+  .header, .banner-content{
+        height: auto;
+        padding: 0;
+    }
+
+}
